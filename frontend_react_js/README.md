@@ -1,15 +1,57 @@
-# Frontend React JS (Reset)
+# AI Smart Finance Buddy - Frontend (Expo React Native)
 
-This container has been reset to a clean state.
+This is the Expo React Native frontend using Nativewind (TailwindCSS) and expo-router for navigation.
 
-- No app scaffold, configuration, or git history remains.
-- You can initialize your framework of choice (e.g., Vite, Next.js, CRA) from scratch.
+## Quick start
 
-Getting started:
-1. Create a new app here, for example:
-   - Vite: npm create vite@latest .
-   - Next.js: npx create-next-app@latest .
-2. Install dependencies: npm install
-3. Start your dev server per the chosen tool.
+1. Install dependencies:
+   - npm install
 
-Note: This README is a placeholder to keep the directory in source control and satisfy CI.
+2. Start the app:
+   - npm run start
+
+3. Open on:
+   - iOS: Expo Go
+   - Android: Expo Go
+   - Web: press 'w' in the Expo CLI
+
+## Structure
+
+- app/_layout.tsx: Root stack layout
+- app/index.tsx: Dashboard screen
+- app/login.tsx: Login placeholder
+- app/register.tsx: Register placeholder
+
+## Styling
+
+Tailwind-like classes via Nativewind. Config in tailwind.config.js
+```
+
+
+Explanation: Backend Node.js + Express app with Mongoose, JWT auth, and user model.
+````write file="universal-application-suite-108-159/backend-node/package.json"
+{
+  "name": "ai-smart-finance-buddy-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js + Express + MongoDB (Mongoose) backend with JWT auth",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "jsonwebtoken": "9.0.2",
+    "mongoose": "8.6.1",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "nodemon": "3.1.7"
+  }
+}
