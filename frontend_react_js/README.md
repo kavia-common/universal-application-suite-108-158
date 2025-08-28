@@ -2,14 +2,24 @@
 
 This project provides a minimal React template with a clean, modern UI and minimal dependencies.
 
-## Features
+Note: A Vite React + TypeScript app has been scaffolded at my-app/ within this container.
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+## Apps in this container
 
-## Getting Started
+- Legacy lightweight React template (CRA-style) in this root.
+- New Vite + React + TypeScript app in my-app/.
+
+## Getting Started (Vite app)
+
+From this directory:
+
+1. cd my-app
+2. npm install
+3. npm run dev
+
+This will start the Vite dev server (defaults to http://localhost:5173).
+
+## Getting Started (legacy app)
 
 In the project directory, you can run:
 
